@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    font-size: 20px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+#logo_name {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header button {
+    background-color: 	#F44336;
+    color: white;
+    font-size: 25px;
+    padding: 13px 17px;
+    border: none;
+    border-radius: 13px;
+}
