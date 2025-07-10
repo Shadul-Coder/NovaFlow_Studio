@@ -4,12 +4,18 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+header {
+    background-image: url(../Images/Backgound.png);
+    height: 100vh;
+}
+
 nav {
     font-size: 20px;
     display: flex;
     width: 80%;
     justify-content: space-between;
-    margin: 50px auto;
+    margin: 0px auto;
+    padding-top: 50px;
 }
 
 #logo_name {
@@ -18,11 +24,56 @@ nav {
     gap: 30px;
 }
 
-header button {
+button {
     background-color: 	#F44336;
     color: white;
     font-size: 25px;
     padding: 13px 17px;
     border: none;
     border-radius: 13px;
+}
+
+button:hover {
+    transition: all 0.1s ease-in-out 0s;
+    transform: scale(1.05);
+}
+
+#home_text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 11%;
+}
+
+#home_text h1 {
+    width: 75%;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#page2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 100px auto;
+}
+
+#page2_text h1 {
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+#page2_text p {
+    width: 70%;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#page2 img {
+    height: 500px;
+    border-radius: 50px;
 }
